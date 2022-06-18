@@ -27,4 +27,66 @@ height: 100% ;
   padding : 6.25% 2% 0 ; 
 
 }
+/* Menue styling */
+.menue-bg{
+  background-color: #F9F9F9 ;
+}
+
+.menue-heading {
+  padding: 3% 0 ;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem ;
+
+}
+
+.menue-links{
+  font-weight: 400;
+  font-size: 1.5rem ;
+
+}
+.location-heading {
+  padding: 3% 0 ;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem ;
+
+}
+
+
+.carousel-inner img {
+    width:auto;
+    height: 31.25rem;
+
+  }
+
+
+@media screen and (max-width: 540px)  {
+  .carousel-inner img {
+      width:25rem;
+      height: 31.25rem;
+
+    }
+
+    .cover-heading {
+      color: white ;
+      font-family: Ubuntu ;
+      font-size: 3rem ;
+      font-weight: 900 ;
+      line-height: 1.5;
+      position: absolute;
+      left: 90px ;
+      top : 50px ;
+    text-align: center;
+    }
+
+      .card-title{
+        font-size: 1rem ;
+
+      }
+      .card-text{
+        font-size: .8rem ;
+      }
+	.map iframe{ width : 25rem ;}
+}
 
